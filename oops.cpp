@@ -34,10 +34,10 @@ public:
     }
 
     // Parameterized constructor
-    Employee(string n, string r, string d) {
-        name = n;
-        role = r;
-        desk = d;
+    Employee(string name, string role, string desk) {
+        this -> name = name;
+        this ->role = role;
+        this ->desk = desk;
     }
 
     void getInfo() {
